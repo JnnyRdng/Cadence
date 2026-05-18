@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Live", "Live\Live.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ble.Linux", "Ble.Linux\Ble.Linux.csproj", "{4C38B682-815E-4AA5-9D84-6CD081920E97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile", "Mobile\Mobile.csproj", "{0BB1470D-5761-4D71-9F38-36699DD124C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{4C38B682-815E-4AA5-9D84-6CD081920E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C38B682-815E-4AA5-9D84-6CD081920E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C38B682-815E-4AA5-9D84-6CD081920E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB1470D-5761-4D71-9F38-36699DD124C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB1470D-5761-4D71-9F38-36699DD124C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB1470D-5761-4D71-9F38-36699DD124C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB1470D-5761-4D71-9F38-36699DD124C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

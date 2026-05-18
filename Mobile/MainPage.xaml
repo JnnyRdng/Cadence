@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile.MainPage">
+    <VerticalStackLayout Padding="24" Spacing="20">
+
+        <Label Text="Cadence Sensor"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <Button x:Name="ToggleButton"
+                Text="Start"
+                Clicked="OnToggleClicked" />
+
+        <Label x:Name="RpmLabel"
+               Text="—"
+               FontSize="72"
+               HorizontalOptions="Center" />
+
+        <Label Text="RPM"
+               FontSize="14"
+               HorizontalOptions="Center" />
+
+        <Label x:Name="StatusLabel"
+               Text="Press Start to begin."
+               FontSize="12"
+               HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
